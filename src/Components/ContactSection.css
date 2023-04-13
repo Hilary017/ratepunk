@@ -1,0 +1,160 @@
+.contact-section{
+    display: flex;
+    background-color: #ffffff;
+    padding: 1rem 6rem;
+    font-size: 0.8rem;
+    color: #1F343E;
+}
+
+.contact--img{
+    margin-bottom: 1rem;
+}
+
+.rights--text{
+    display: none;
+}
+
+.logo-contact{
+    margin-bottom: 2rem;
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.quick--links{
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    width: 25%;
+    margin-left: 2rem;
+    /* margin-left: 2rem; */
+}
+
+.quick--head{
+    margin-bottom: 0.7rem;
+}
+
+.social-links{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.social--img{
+    margin-right: 0.6rem;
+    border: 1px solid #1F343E;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    background-color: #4EB3E3;
+}
+
+.contact-link{
+    text-decoration: none;
+    color: #1F343E;
+}
+
+.contact-link:hover{
+    color: #4EB3E3;
+}
+
+.copyright--text{
+    /* display: none; */
+    margin-top: 2rem;
+    font-size: 0.7rem;
+}
+
+.active-link{
+    color: #4EB3E3;
+}
+
+.social--sect{
+    margin-top: 3rem;
+    line-height: 3rem;
+}
+
+.socials-sect{
+    margin-left: -2rem;
+}
+
+.contact--h{
+    margin-bottom: 1.5rem;
+}
+
+.contact--sect{
+    margin-top: 0.4rem;
+}
+
+.rp--mail{
+    margin-right: 0.6rem;
+}
+
+@media (max-width: 992px){
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        padding: 0 1rem 1rem 0.5rem;
+        padding-top: 3rem;
+        font-size: 0.8rem;
+        /* max-width: 1280px; */
+    }
+
+    .active-link{
+        color: #1F343E;
+    }
+    
+    .contact--h{
+        margin-bottom: 0rem;
+    }
+
+    .contact--img{
+        margin-bottom: 2rem;
+    }
+    
+    .copyright--text{
+        display: none;
+    }
+    
+    .rights--text{
+        display: block;
+    }
+
+    .quick--head{
+        margin-bottom: 0rem;
+    }
+
+    .logo-contact{
+        margin-bottom: 2rem;
+        width: 100%;
+        margin-left: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .socials-sect{
+        margin-left: 1rem;
+    }
+    
+    .quick--links{
+        line-height: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+    }
+    
+    .rp--mail{
+        margin-right: 1rem;
+    }
+    
+    .socials-sect {
+        line-height: 3rem;
+    }
+    
+    .social-links{
+        display: flex;
+        margin-bottom: 1rem;
+    }
+
+    .social--sect{
+        margin-top: 0rem;
+    }
+
+    .contact-link:hover{
+        color: #1F343E;
+    }
+}

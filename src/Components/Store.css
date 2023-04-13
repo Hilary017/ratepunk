@@ -1,0 +1,197 @@
+.store-sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #45565E;
+    color: white;
+    padding: 2rem 0;
+}
+
+.chrome--store{
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid black;
+    background-color:#45565E;
+    color: white;
+    border-radius: 0.5rem;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    width: 60%;
+    height: 80px;
+    font-size: 1rem;
+}
+
+.store-star{
+    display: flex;
+    margin-top: 1.4rem;
+}
+
+button{
+    background-color: none;
+}
+
+.store-img{
+    /* margin: 0.5rem 0;
+    margin-left: 1rem;
+    width: 3rem; */
+}
+
+.star{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.store-p{
+    margin-left: 0.5rem;
+    margin-top: 1.6rem;
+}
+
+.chrome-reviews{
+    border: none;
+}
+
+.bi-star{
+    /* margin-left: 0.3rem; */
+    margin-top: 1.3rem;
+}
+
+.app--store{
+    font-weight: bolder;
+    margin-left: 0.65rem;
+}
+
+.web--store{
+    margin-left: -0.2rem;
+}
+
+.store-link{
+    text-decoration: none;
+    /* display: block; */
+    width: 100%;
+}
+
+.chro--store{
+    margin-left: 1rem;
+    font-weight: bolder;
+}
+
+.chrome--sect{
+    margin-top: 1rem;
+}
+
+@media (min-width: 992px) {
+    .store-sect{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #45565E;
+        color: white;
+        padding: 2rem 3rem;
+        /* max-width: 1280px; */
+    }
+
+    .chrome--store{
+        display: flex;
+        justify-content: center;
+        /* border: 0.5px solid black; */
+        background-color:#45565E;
+        color: white;
+        border-radius: 0.5rem;
+        margin: auto;
+        padding: 0 1rem;
+        width: 80%;
+        /* height: 80px; */
+        font-size: 1rem;
+        min-width: 220px;
+    }
+
+    .chrome-reviews{
+        border: none;
+        margin-top: 0rem;
+    }
+}
+
+
+@media (min-width: 200px) and (max-width: 400px) {
+    .chrome--store{
+        width: 80%;
+    }
+}
+
+/* 
+@media screen and (max-width: 768px) {
+    .store-sect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #45565E;
+        color: white;
+        padding: 1rem 0;
+    }
+    
+    .chrome--store{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        border-radius: 1rem;
+        margin: 0.5rem;
+        margin-bottom: 0;
+        width: 312px;
+        height: 80px;
+        width: 80%;
+    }
+
+    button{
+        background-color: none;
+    }
+    
+    .star{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .store-p{
+        margin-left: 1.5rem;
+        margin-bottom: 0.15rem;
+    }
+    
+    .chrome-reviews{
+        border: none;
+        margin-top: 0rem;
+    }
+    
+    .bi-star{
+        margin-left: 0.3rem;
+    }
+    
+    .app--store{
+        font-size: 0.95rem;
+        font-weight: bolder;
+    }
+    
+    .web--store{
+        margin-left: 0.3rem;
+        font-size: 0.8rem;
+    }
+  
+    .chrome-sect-p{
+        margin-left: -1.2rem;
+        font-size: 0.8rem;
+    }
+
+    .apple-img{
+        margin-left: 1.7rem;
+    }
+}
+
+.store-star{
+    display: flex;
+    margin-top: 1.4rem;
+}
+
+.star-p{
+    font-size: 0.8rem;
+}
+ */

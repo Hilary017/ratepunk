@@ -1,0 +1,183 @@
+.refer_friends{
+    background-color:#F8F4F9;
+    margin: 4rem 0.5rem;
+    padding: 3rem;
+    border-radius: 1rem;
+    max-width: 668px;
+    /* min-width: 400px; */
+}
+
+.welcome_text{
+    font-stretch: expanded;
+    font-family: 'Caveat Brush', cursive;
+    color: #1F343E;
+    font-size: 32px;
+    line-height: 3.5rem;
+    margin: 0 0 2rem 0.6rem;
+}
+
+.welcome_p{
+    text-align: left;
+    font-family: 'Inter', sans-serif;   
+    font-family: 'Noto Sans', sans-serif;
+    color: #1F343E;
+    line-height: 1.5rem;
+    margin: 0 0.6rem;
+}
+
+.error_p{
+    font-size: smaller;
+    color: red;
+    margin: 2rem 0.6rem -2.8rem 0.6rem;
+}
+
+.confirm_mail{
+    display: flex;
+}
+
+.input_field{
+    width: 100%;
+    padding: 12px 30px 12px 40px;
+    padding: 2.1rem 2.5rem;
+    border-radius: 0.4rem;
+    border: 1.2px black solid;
+    height: 64px;
+    border-radius: 0.4rem;
+    border: 1.2px black solid;
+    text-indent: 1rem;
+}
+
+.input_sect{
+    position: relative;
+    margin: 1rem 0.5rem ;
+    margin-top: 3rem;
+    max-width: 498px;
+}
+
+.input_img{
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+}
+
+.referral_btn{
+    /* width: 95%;
+    height: 2.5rem;
+    margin: 0 0.5rem;
+    margin-bottom: 5rem; */
+    width: 97%;
+    max-width: 498px;
+    height: 64px;
+    border: none;
+    margin: 0rem 1rem 4rem 0.5rem;
+    background-color: #4EB3E3;
+    color: white;
+    border-radius: 0.4rem;
+    /* border: 1.2px solid black; */
+    font-family: 'Noto Sans', sans-serif;
+    cursor: pointer;
+}
+
+
+
+.success_img{
+    height: 1.2rem;
+    margin: 0 0.7rem;
+}
+
+.success_text{
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.limit_p{
+    font-size: 0.7rem;
+    margin-left: 0.8rem;
+    margin-top: 4rem;
+    font-family: 'Noto Sans', sans-serif;
+    color: #1F343E;
+}
+
+button{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.mail_confirm{
+    display: flex;
+    margin: 0.5rem 0;
+}
+
+.success__sect{
+    margin: 3rem 0;
+}
+
+.success_url{
+    width: 150px;
+    height: 64px;
+    margin: 0rem 1rem 4rem 0;
+    background-color: #4EB3E3;
+    color: white;
+    border-radius: 0 0.4rem 0.4rem 0rem;
+    border: 1.2px solid black;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.success_input{
+    width: 100%;
+    height: 2.5rem;
+    border: 1.2px black solid;
+    height: 64px;
+    padding: 0 3rem;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    border-radius: 0.4rem 0 0 0.4rem;
+    border: 1.2px black solid;
+    border-right: none;
+    text-indent: 1rem;
+}
+
+.success_input:active,
+.success_input:focus{
+    outline: none;
+}
+
+@media (min-width: 992px) {
+    .refer_friends{
+        width: 50%;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 300px) {
+    .refer_friends{
+        width: 100%;
+        padding: 1rem;
+        /* min-width: 400px; */
+    }
+
+    .success_input{
+        width: 100%;
+        height: 2.5rem;
+        border: 1.2px black solid;
+        height: 64px;
+        padding: 0 1rem;
+        font-size: 1rem;
+        margin-left: 0.5rem;
+        border-radius: 0.4rem 0 0 0.4rem;
+        border: 1.2px black solid;
+        border-right: none;
+        text-indent: 0;
+    }
+}
+
+.success-confirm-mail{
+    display: flex;
+    margin-top: 3rem;
+    padding-left: 0.6rem;
+    margin-bottom: 0.4rem;
+}
+
+.successful_text{
+    font-size: smaller;
+    font-weight: bold;
+}

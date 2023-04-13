@@ -1,0 +1,111 @@
+.invite--sect{
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.invite--friend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.invite-img{
+    margin: 0 2rem 0 0;
+}
+
+.voucher-img{
+    margin: 0 2rem 0 0;
+}
+
+/* .invite-text{
+    display: flex;
+    flex-direction: column;
+} */
+
+.invite--h, .invite--p, .coin-p, .coin-h, .voucher-p, .voucher-h{
+    margin-bottom: 1rem;
+    font-family: 'Caveat Brush', cursive;
+    color: #1F343E;
+
+}
+
+.invite--p, .coin-p{
+    color: #4EB3E3;
+    margin-top: 1rem;
+}
+
+.voucher-p{
+    color: #4EB3E3;
+    margin-top: 1rem;
+}
+
+.refer-text{
+    line-height: 1.5rem;
+    color: #1F343E;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.collect--coin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.coin--collect{
+    /* margin-right: 28px; */
+}
+
+.coin--img{
+    width: 8rem;
+}
+
+.get-voucher{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+@media (min-width: 992px) {
+    .invite--sect{
+        /* margin: 5rem; */
+        width: 50%;
+    }
+
+    .invite--friend{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .collect--coin{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .get-voucher{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .coin--collect{
+        margin: 0 auto;
+        width: 50%;
+    }
+}
