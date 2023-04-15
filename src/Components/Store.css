@@ -21,9 +21,9 @@
     font-size: 1rem;
 }
 
-.chrome--img{
-    /* margin-right: -3.8rem; */
-}
+/* .chrome--img{
+    margin-right: -3.8rem;
+} */
 
 .store-star{
     display: flex;
@@ -34,11 +34,11 @@ button{
     background-color: none;
 }
 
-.store-img{
-    /* margin: 0.5rem 0;
+/* .store-img{
+    margin: 0.5rem 0;
     margin-left: 1rem;
-    width: 3rem; */
-}
+    width: 3rem;
+} */
 
 .star{
     margin-right: 0;
