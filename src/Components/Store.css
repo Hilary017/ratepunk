@@ -21,6 +21,10 @@
     font-size: 1rem;
 }
 
+.chrome--img{
+    /* margin-right: -3.8rem; */
+}
+
 .store-star{
     display: flex;
     margin-top: 1.4rem;
@@ -71,12 +75,16 @@ button{
 }
 
 .chro--store{
-    margin-left: 1rem;
+    margin-left: 1.7rem;
     font-weight: bolder;
 }
 
 .chrome--sect{
     margin-top: 1rem;
+}
+
+.second--sect{
+    margin-left: 3rem;
 }
 
 @media (min-width: 992px) {

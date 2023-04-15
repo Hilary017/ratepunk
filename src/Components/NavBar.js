@@ -19,7 +19,7 @@ const NavBar = () => {
             <li><a href="#" className={`${classes.navbar_link} ${classes.navbar__blog}`}>Blog</a></li>
         </ul>
         <div className={classes.nav_burger}>
-            {nav ? <img src="./menu.svg" onClick={navSlide} /> : <img src="./close.svg" onClick={navSlide} />}
+            <img src={`${nav ? "./menu.svg" : "./close.svg"}`} onClick={navSlide} />
         </div>
     </nav>
         {

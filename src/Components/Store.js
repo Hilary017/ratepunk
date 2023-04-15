@@ -5,9 +5,13 @@ const Store = () => {
         <a href='https://chrome.google.com/webstore/detail/ratepunk-same-hotel-way-c/gdaioanblcnghddimngklkhgcbomfdck?utm_source=ratepunk' className='store-link'>
             <button className='chrome--store'>
                 <img src='./chrome.svg' className='store-img chrome--img' alt='Chrome' />
-                <div className='chrome--sect'>
+                {/* <div className='chrome--sect second--sect'>
                     <p className='web--store'>available in the</p>
                     <p className='chro--store'>chrome web store</p>
+                </div> */}
+                <div className='chrome--sect'>
+                    <p className='chrome-sect-p'>available in the</p>
+                    <p className='app--store'>apple app store</p>
                 </div>
             </button>
         </a>
